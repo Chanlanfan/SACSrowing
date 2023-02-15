@@ -175,11 +175,11 @@ color: #7e7e7e;
 	}
 	.main-heading h3{
 		position: absolute;
-		top: 5px
+		top: -105px
 	}
 	.main-heading p.scroll-tosee-crews{
 		position: absolute;
-		top: 10px;
+		top: -100px;
 	}
 }
 
