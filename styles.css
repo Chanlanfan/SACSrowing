@@ -173,6 +173,10 @@ color: #7e7e7e;
 		text-align: center;
 		padding-top: 200px
 	}
+	.main-heading h3{
+		position: absolute;
+		top: 200px
+	}
 }
 
 .main-heading h3 {
