@@ -438,6 +438,7 @@ padding-top: 450px
 .WCRcalender embed {
 	position: absolute;
 	top: 600px;
+	background-color: #ffffff;
 	right: 10px;
     height: 100%;
     width: 100%;
