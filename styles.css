@@ -200,6 +200,8 @@ color: #7e7e7e;
 	.main-heading h3{
 		position: absolute;
 		top: 280px;
+		left: 50%;
+		text-align: center;
 		font-size: 80%;
 
 	}
