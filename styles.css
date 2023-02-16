@@ -1,27 +1,5 @@
 /* ========== Main ========== */
-/* width */
-::-webkit-scrollbar {
-	width: 20px;
-  }
-  
 
-
-  /* Track */
-  ::-webkit-scrollbar-track {
-	background: #c2c2c2;
-  }
-
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: #005296;
-	border-radius: 30px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-	background: #003764;
-  }
 /* text formatting */
 h1, h2, h3, p, a {
 	font-family: Arial, Helvetica, sans-serif;
@@ -46,6 +24,47 @@ body {
 	text-align: center;
 	font-size: calc(1em + 0.5vw);
 }
+
+* {
+   /* Poor Man's Reset */
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	width: 80vw;
+	margin: 0 auto;
+}
+.main-heading {
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+	width: 20px;
+  }
+  
+
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #c2c2c2;
+  }
+
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #005296;
+	border-radius: 30px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #003764;
+  }
 /* ================ Header ===================*/
 header {
 	overflow: hidden;
@@ -200,7 +219,7 @@ color: #7e7e7e;
 	.main-heading h3{
 		position: absolute;
 		top: 280px;
-		left: 50%;
+		margin: auto;
 		text-align: center;
 		font-size: 80%;
 
@@ -283,22 +302,7 @@ margin-top: 60%;
    }
 }
 /** PAGE STYLING **/
-* {
-   /* Poor Man's Reset */
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
 
-main {
-	width: 80vw;
-	margin: 0 auto;
-}
-.main-heading {
-	height: 100vh;
-	display: grid;
-	place-items: center;
-}
 #cards {
 	list-style: none;
 	outline: calc(var(--outline-width) * 10) solid blue;
