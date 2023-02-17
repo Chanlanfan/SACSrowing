@@ -102,6 +102,9 @@ header a.logo {
 	top: 28px;
 	left: 45%;
 }
+.header-right .gallery{
+color: #7e7e7e;
+	}
 /* Change the background color on mouse-over */
 header a:hover {
 	background-color: #ddd;
@@ -464,9 +467,8 @@ padding-top: 450px
 	grid-template-rows: auto;
 	width: 1000px;
 	height: 300px;
-	position: absolute;
 	top: 150px;
-	left: 30%;
+	margin: auto;
 	align-items: stretch;
 	outline: var(--outline-width) solid lime;
 	}
