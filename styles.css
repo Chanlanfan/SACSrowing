@@ -102,6 +102,12 @@ header a.logo {
 	top: 28px;
 	left: 45%;
 }
+.header-right .gallery{
+	position: absolute;
+	top: 40px;
+	font-size: 15px;
+color: #7e7e7e;
+	}
 /* Change the background color on mouse-over */
 header a:hover {
 	background-color: #ddd;
